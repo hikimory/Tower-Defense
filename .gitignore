@@ -1,0 +1,42 @@
+# =============== #
+# Unity folders #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+3rdParty/
+Builds/
+Packages/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ===================================== #
+# Unity generated #
+# ===================================== #
+*.pidb.meta
+sysinfo.txt
+
+# ===================================== #
+# Visual Code #
+# ===================================== #
+.vscode/
+
+# ============ #
+# OS generated #
+# ============ #
+ehthumbs.db
+Thumbs.db
