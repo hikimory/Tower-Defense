@@ -1002,7 +1002,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 58308110}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1189604288}
+        m_MethodName: Sell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &58308110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,14 +1577,16 @@ MonoBehaviour:
     prefab: {fileID: 2776396942546436987, guid: d3f59c86732fb584a9b824edb8ae5d37,
       type: 3}
     cost: 250
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 0
+    upgradedPrefab: {fileID: 2776396942546436987, guid: c0c40c5c45e1e274bbb5c01969695ef6,
+      type: 3}
+    upgradeCost: 150
   laserBeamer:
     prefab: {fileID: 4943439347696632829, guid: 0892728ce0e112f4a992a7879b3fd8cc,
       type: 3}
     cost: 350
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 0
+    upgradedPrefab: {fileID: 4943439347696632829, guid: 934e8c0425ec4fe4b8385e5da7dbac19,
+      type: 3}
+    upgradeCost: 250
 --- !u!1001 &119210480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13408,6 +13421,7 @@ MonoBehaviour:
   ui: {fileID: 396333576}
   upgradeCost: {fileID: 1061685132}
   upgradeButton: {fileID: 1019019919}
+  sellAmount: {fileID: 1408009085}
 --- !u!1001 &1199573919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14688,7 +14702,7 @@ GameObject:
   - component: {fileID: 1408009086}
   - component: {fileID: 1408009085}
   m_Layer: 0
-  m_Name: Cost
+  m_Name: Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20719,6 +20733,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildEffect: {fileID: 5074302579622607559, guid: 2d0a9c661b0eeeb4fa587d7f6c748eef,
+    type: 3}
+  sellEffect: {fileID: 981460855751172696, guid: 3a43d5fd2a5a51d43b31eeb9c83d19d9,
     type: 3}
   nodeUI: {fileID: 1189604288}
 --- !u!114 &2005381115
