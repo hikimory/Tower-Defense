@@ -5482,6 +5482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec159bd29b26c44e9be86978f511cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backToMenu: MainMenu
   roundsText: {fileID: 1689406039}
 --- !u!95 &478535888
 Animator:
@@ -21728,6 +21729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08141772a24dc0d44ab41372ca620ae8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backToMenu: MainMenu
   ui: {fileID: 574052172}
 --- !u!1001 &2018964667
 PrefabInstance:
